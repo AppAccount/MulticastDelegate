@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
   s.name     = 'MulticastDelegateSwift'
-  s.version  = '2.0.1'
-  s.deployment_target.ios.deployment_target = '8.0'
-  s.deployment_target.osx.deployment_target = '10.12'
+  s.version  = '3.1.0'
   s.license  = { :type => 'MIT'}
   s.summary  = 'Swift Multicast Delegate'
   s.homepage = 'https://github.com/jonasman/MulticastDelegate'
   s.author   = { 'Joao Nunes' => 'joao3001@hotmail.com' }
+  
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.12'
 
   s.source   = { :git => 'https://github.com/jonasman/MulticastDelegate.git',
 		:tag => "#{s.version}" }
