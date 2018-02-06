@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Joao Nunes' => 'joao3001@hotmail.com' }
   
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.12'
+  s.osx.deployment_target = '10.10'
 
   s.source   = { :git => 'https://github.com/jonasman/MulticastDelegate.git',
 		:tag => "#{s.version}" }
